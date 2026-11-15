@@ -1,0 +1,17 @@
+{
+  "name": "hirise_mosaic_boxwork",
+  "bbox_lon": [
+    137.369,
+    137.4
+  ],
+  "bbox_lat": [
+    -4.819,
+    -4.783
+  ],
+  "width_px": 917,
+  "height_px": 1065,
+  "pixel_m_nominal": 2,
+  "row0_is": "north",
+  "bands": "1 (gris, 8 bits)",
+  "zero_percent": 0.002
+}

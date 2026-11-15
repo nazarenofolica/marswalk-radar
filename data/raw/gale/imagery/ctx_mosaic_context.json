@@ -1,0 +1,19 @@
+{
+  "name": "ctx_mosaic_context",
+  "description": "MRO CTX, Gale Crater Mosaic (~10 m/px)",
+  "wmts_zoom": 12,
+  "bbox_lon": [
+    137.12242126464844,
+    137.72993087768555
+  ],
+  "bbox_lat": [
+    -4.925651550292969,
+    -4.24896240234375
+  ],
+  "width_px": 3539,
+  "height_px": 3942,
+  "pixel_deg": 0.000171661376953125,
+  "pixel_m_nominal": 10.16,
+  "row0_is": "north",
+  "mode": "RGBA"
+}

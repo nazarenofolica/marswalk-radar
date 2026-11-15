@@ -1,0 +1,17 @@
+{
+  "name": "hirise_mosaic_route_full",
+  "bbox_lon": [
+    137.342,
+    137.46
+  ],
+  "bbox_lat": [
+    -4.74,
+    -4.579
+  ],
+  "width_px": 2327,
+  "height_px": 3175,
+  "pixel_m_nominal": 3,
+  "row0_is": "north",
+  "bands": "1 (gris, 8 bits)",
+  "zero_percent": 1.606
+}
