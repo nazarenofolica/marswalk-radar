@@ -1,0 +1,23 @@
+{
+  "name": "detail",
+  "units": "meters (elevaci\u00f3n sobre datum de Marte, float32)",
+  "crs": "EPSG:4326-like, grilla geogr\u00e1fica de Marte (esfera r=3389,5 km)",
+  "bbox_lon": [
+    137.342,
+    137.392
+  ],
+  "bbox_lat": [
+    -4.74,
+    -4.652
+  ],
+  "width_px": 1479,
+  "height_px": 2603,
+  "pixel_deg_x": 3.380662609870382e-05,
+  "pixel_deg_y": 3.380714560122938e-05,
+  "pixel_m_nominal": 2,
+  "row0_is": "north",
+  "min_m": -4485.23046875,
+  "max_m": -4028.49609375,
+  "nodata_percent": 0.0,
+  "nodata_rule": "NaN o valor < -1e+30"
+}
