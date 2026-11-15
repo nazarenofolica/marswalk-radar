@@ -1,0 +1,19 @@
+{
+  "name": "geology_sim3292_context",
+  "description": "Mapa geol\u00f3gico global de Marte USGS SIM 3292 (escala 1:20M, ~20 m/px en el zoom 11)",
+  "wmts_zoom": 11,
+  "bbox_lon": [
+    137.12242126464844,
+    137.7301025390625
+  ],
+  "bbox_lat": [
+    -4.925651550292969,
+    -4.24896240234375
+  ],
+  "width_px": 1770,
+  "height_px": 1971,
+  "pixel_deg": 0.00034332275390625,
+  "pixel_m_nominal": 20.31,
+  "row0_is": "north",
+  "mode": "RGBA"
+}

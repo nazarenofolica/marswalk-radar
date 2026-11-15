@@ -1,0 +1,816 @@
+{
+  "data/raw/gale/dem/dem_boxwork.tif": {
+    "bytes": 2799151,
+    "description": "DEM Gale recorte 'boxwork' a 2 m/px",
+    "downloaded_utc": "2026-11-15T01:54:33Z",
+    "max_m": -3364.57958984375,
+    "min_m": -3851.1796875,
+    "sha256": "e11d67c70ca3704d68c0209aea6811937c62eaa09cbbc4acc0125d849b8f5975",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Gale_DEM_SMG_1m/ImageServer/exportImage (Mars Trek, JPL/NASA; HiRISE DEM, producto MRO HiRISE Gale Crater DEM)"
+  },
+  "data/raw/gale/dem/dem_context.tif": {
+    "bytes": 7285302,
+    "description": "DEM Gale recorte 'context' a 25 m/px",
+    "downloaded_utc": "2026-11-15T01:54:39Z",
+    "max_m": 358.7458190917969,
+    "min_m": -4638.70703125,
+    "sha256": "aaaf8ad5c78ec8649015f64dae762388ba3d57f0a4f3015fb3548227520123f6",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Gale_DEM_SMG_1m/ImageServer/exportImage (Mars Trek, JPL/NASA; HiRISE DEM, producto MRO HiRISE Gale Crater DEM)"
+  },
+  "data/raw/gale/dem/dem_detail.tif": {
+    "bytes": 9611548,
+    "description": "DEM Gale recorte 'detail' a 2 m/px",
+    "downloaded_utc": "2026-11-15T01:53:55Z",
+    "max_m": -4028.49609375,
+    "min_m": -4485.23046875,
+    "sha256": "d9852fb25ecacc60a922195dd3e1f3ddacfb4f6917ffa26b39fe9de84ee6507d",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Gale_DEM_SMG_1m/ImageServer/exportImage (Mars Trek, JPL/NASA; HiRISE DEM, producto MRO HiRISE Gale Crater DEM)"
+  },
+  "data/raw/gale/dem/dem_route_full.tif": {
+    "bytes": 18730716,
+    "description": "DEM Gale recorte 'route_full' a 3 m/px",
+    "downloaded_utc": "2026-11-15T01:54:26Z",
+    "max_m": -3735.038330078125,
+    "min_m": -4531.16796875,
+    "sha256": "80f2bb5b3e51b6464406fe067736efa37ea68691f42e4f1ef0eb23a513a12a98",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Gale_DEM_SMG_1m/ImageServer/exportImage (Mars Trek, JPL/NASA; HiRISE DEM, producto MRO HiRISE Gale Crater DEM)"
+  },
+  "data/raw/gale/imagery/ctx_mosaic_context.png": {
+    "bytes": 12406775,
+    "description": "MRO CTX, Gale Crater Mosaic (~10 m/px)",
+    "downloaded_utc": "2026-11-15T01:57:00Z",
+    "sha256": "2d3ac2df8893f862202592df036a659f71b9d0dab25463d4ab2f7ee81983975a",
+    "source": "https://trek.nasa.gov/tiles/Mars/EQ/Gale_CTX_BlockAdj_dd/1.0.0//default/default028mm/ (Mars Trek WMTS, JPL/NASA/USGS)"
+  },
+  "data/raw/gale/imagery/hirise_mosaic_boxwork.png": {
+    "bytes": 534902,
+    "description": "Mosaico HiRISE gris, recorte 'boxwork' a 2 m/px",
+    "downloaded_utc": "2026-11-15T01:57:52Z",
+    "sha256": "e05e93961f65e0d4b9cb3a41caa986b3d430fb50c0cb513f888619ae88d5450a",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/curiosity_hirise_mosaic/ImageServer/exportImage (Mars Trek, JPL/NASA; MRO HiRISE Curiosity Roving Site Mosaic)"
+  },
+  "data/raw/gale/imagery/hirise_mosaic_context.png": {
+    "bytes": 1428474,
+    "description": "Mosaico HiRISE gris, recorte 'context' a 25 m/px",
+    "downloaded_utc": "2026-11-15T01:57:54Z",
+    "sha256": "55d627245946bd3f714b5a4b4346a639bbfcc0fbb7a17fe72af91e73c43f882f",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/curiosity_hirise_mosaic/ImageServer/exportImage (Mars Trek, JPL/NASA; MRO HiRISE Curiosity Roving Site Mosaic)"
+  },
+  "data/raw/gale/imagery/hirise_mosaic_detail.png": {
+    "bytes": 2143800,
+    "description": "Mosaico HiRISE gris, recorte 'detail' a 2 m/px",
+    "downloaded_utc": "2026-11-15T01:57:39Z",
+    "sha256": "91ea3df843ba41391a5419a073c4e0a95add797bcdd78579f9755c36d1d1557e",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/curiosity_hirise_mosaic/ImageServer/exportImage (Mars Trek, JPL/NASA; MRO HiRISE Curiosity Roving Site Mosaic)"
+  },
+  "data/raw/gale/imagery/hirise_mosaic_route_full.png": {
+    "bytes": 4278515,
+    "description": "Mosaico HiRISE gris, recorte 'route_full' a 3 m/px",
+    "downloaded_utc": "2026-11-15T01:57:48Z",
+    "sha256": "13056d5b98433fc4c00db80c1f633a6eb476bfd520414c0ae8bbfabfd3227e9f",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/curiosity_hirise_mosaic/ImageServer/exportImage (Mars Trek, JPL/NASA; MRO HiRISE Curiosity Roving Site Mosaic)"
+  },
+  "data/raw/gale/layers/geology_sim3292_context.png": {
+    "bytes": 22508,
+    "description": "Mapa geológico global de Marte USGS SIM 3292 (escala 1:20M, ~20 m/px en el zoom 11)",
+    "downloaded_utc": "2026-11-15T01:57:29Z",
+    "sha256": "a86c7171727f38fb9a029ddbee7c20b945c5b0a9be0b9ef77ab1377ae00ade46",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/SIM3292_Global_Geology/MapServer/WMTS/tile/1.0.0/SIM3292_Global_Geology/default/default028mm/ (Mars Trek WMTS, JPL/NASA/USGS)"
+  },
+  "data/raw/gale/layers/hydrous_minerals_context.geojson": {
+    "bytes": 45,
+    "description": "Detecciones de minerales hidratados dentro de la caja de contexto de Gale",
+    "downloaded_utc": "2026-11-15T01:54:41Z",
+    "features": 0,
+    "sha256": "7d09e532fc380630caac6b4b1b5174a7a9f7a308f6544bcb79eefb97b1e12306",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Hydrous_Mineral_Detections_OMEGA_CRISM_clon0/MapServer/0/query (Mars Trek, JPL/NASA; OMEGA y CRISM)"
+  },
+  "data/raw/gale/layers/themis_ir_day_context.png": {
+    "bytes": 161092,
+    "description": "Mars Odyssey THEMIS-IR día, mosaico controlado 100 m (~80 m/px en el zoom 9)",
+    "downloaded_utc": "2026-11-15T01:57:09Z",
+    "sha256": "0d91674812237ffd2a95f59ef9065ae3602e786230da971154d86566f5d0b0ab",
+    "source": "https://trek.nasa.gov/tiles/Mars/EQ/THEMIS_DayIR_ControlledMosaics_100m_v2_oct2018/1.0.0//default/default028mm/ (Mars Trek WMTS, JPL/NASA/USGS)"
+  },
+  "data/raw/gale/layers/themis_ir_night_context.png": {
+    "bytes": 184381,
+    "description": "Mars Odyssey THEMIS-IR noche, mosaico controlado 100 m (~80 m/px en el zoom 9)",
+    "downloaded_utc": "2026-11-15T01:57:04Z",
+    "sha256": "154817104d0712c480b99487a14afda664716031f08a7ee74566a8e0e7da0846",
+    "source": "https://trek.nasa.gov/tiles/Mars/EQ/THEMIS_NightIR_ControlledMosaics_100m_v2_oct2018/1.0.0//default/default028mm/ (Mars Trek WMTS, JPL/NASA/USGS)"
+  },
+  "data/raw/gale/vector/curiosity_path.geojson": {
+    "bytes": 800034,
+    "description": "Curiosity path convertido a GeoJSON (EPSG:4326)",
+    "downloaded_utc": "2026-11-15T01:53:30Z",
+    "features": 1,
+    "sha256": "3bc82a075f935a1debc3a08b40d7a9d9be47660fb0596129d011d32564d947a3",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/curiosity_path/MapServer/0/query (Mars Trek, JPL/NASA)"
+  },
+  "data/raw/gale/vector/curiosity_waypoints.geojson": {
+    "bytes": 3120,
+    "description": "Curiosity waypoints convertido a GeoJSON (EPSG:4326)",
+    "downloaded_utc": "2026-11-15T01:53:31Z",
+    "features": 14,
+    "sha256": "c5cad41260ae84766ef0778d2be08f176807b2b4aec9c9ee8e33314c27955828",
+    "source": "https://trek.nasa.gov/mars/trekarcgis/rest/services/curiosity_waypoints/MapServer/0/query (Mars Trek, JPL/NASA)"
+  },
+  "data/raw/gale/vector/msl_traverse_jpl.geojson": {
+    "bytes": 1293364,
+    "description": "Curiosity traverse oficial de JPL, toda la misión",
+    "downloaded_utc": "2026-11-15T01:53:33Z",
+    "features": 1317,
+    "sha256": "86182c6254c987220d0e131c29655a6d4231f4531da2bd0eef3b9d45a5a3b7c7",
+    "source": "https://mars.nasa.gov/mmgis-maps/MSL/Layers/json/MSL_traverse.json (JPL/NASA, mapa MMGIS de la misión MSL)"
+  },
+  "data/raw/gale/vector/msl_waypoints_jpl.geojson": {
+    "bytes": 654007,
+    "description": "Curiosity waypoints oficial de JPL, toda la misión",
+    "downloaded_utc": "2026-11-15T01:53:32Z",
+    "features": 1389,
+    "sha256": "0e27c9d1cc6e5e446c8866d80cc6c08fe07083b4831c1ad0f2b58fc0b018ee3b",
+    "sol_max": 5073,
+    "sol_min": 3,
+    "source": "https://mars.nasa.gov/mmgis-maps/MSL/Layers/json/MSL_waypoints.json (JPL/NASA, mapa MMGIS de la misión MSL)"
+  },
+  "data/raw/photos/bagnold_dunes/NLB_501719248EDR_F0511102NCAM00257M_.jpg": {
+    "bytes": 542692,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1174 - Bagnold Dunes",
+    "downloaded_utc": "2026-11-15T02:03:17Z",
+    "sha256": "f8419117e2fee1528bd75debe682976bd4db534b2a8a67f4e46007c6bf7314a7",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719248EDR_F0511102NCAM00257M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes/NLB_501719336EDR_F0511102NCAM00257M_.jpg": {
+    "bytes": 508170,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1174 - Bagnold Dunes",
+    "downloaded_utc": "2026-11-15T02:03:16Z",
+    "sha256": "196ec54ed8435c742f5c1dec8c8df5c07ca268a7aa16a8873758aedc59229812",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719336EDR_F0511102NCAM00257M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes/NLB_501719625EDR_F0511102NCAM07753M_.jpg": {
+    "bytes": 475181,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1174 - Bagnold Dunes",
+    "downloaded_utc": "2026-11-15T02:03:16Z",
+    "sha256": "ff399a8c69d5f58ac8137b2ab2612231d059032f993c1720ad72ad7b9e940e2f",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719625EDR_F0511102NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes/NLB_501719770EDR_F0511102NCAM07753M_.jpg": {
+    "bytes": 391712,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1174 - Bagnold Dunes",
+    "downloaded_utc": "2026-11-15T02:03:17Z",
+    "sha256": "281179d7f0dfa5663f787b19249edb928ef6103d6c790313441b96e89c1eba7b",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719770EDR_F0511102NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_south/NLB_539621172EDR_F0603162NCAM00259M_.jpg": {
+    "bytes": 519998,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1601 - Bagnold Dunes South",
+    "downloaded_utc": "2026-11-15T02:03:28Z",
+    "sha256": "3eb76853556d3e10a34a2d7f8a88c49388b3b1c067ce92ba17f78541eae978d0",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621172EDR_F0603162NCAM00259M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_south/NLB_539621324EDR_F0603162NCAM00260M_.jpg": {
+    "bytes": 329557,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1601 - Bagnold Dunes South",
+    "downloaded_utc": "2026-11-15T02:03:29Z",
+    "sha256": "647d36024f322fddda9de9a5466b48af6cf3bd23319322b3c963d0baf4796744",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621324EDR_F0603162NCAM00260M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_south/NLB_539621417EDR_F0603162NCAM00260M_.jpg": {
+    "bytes": 317987,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1601 - Bagnold Dunes South",
+    "downloaded_utc": "2026-11-15T02:03:29Z",
+    "sha256": "318bb1af7dfab4dce1019fc88aecddc391fc134c930d4834cc17faf562e72655",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621417EDR_F0603162NCAM00260M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_south/NLB_539621513EDR_F0603162NCAM00260M_.jpg": {
+    "bytes": 374395,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1601 - Bagnold Dunes South",
+    "downloaded_utc": "2026-11-15T02:03:27Z",
+    "sha256": "5ed34946f9b3e7a48b180f9dfd749a47aa18eba8f2bd596767190115dce9717a",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621513EDR_F0603162NCAM00260M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_west_end/NLB_517605736EDR_F0542202NCAM00284M_.jpg": {
+    "bytes": 524641,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1353 - Bagnold Dunes West End",
+    "downloaded_utc": "2026-11-15T02:03:22Z",
+    "sha256": "c7aa5bff50c5df48743eb4b7d231bc2a1eb2a1dd0e82a4df288d807fb68a6b1b",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517605736EDR_F0542202NCAM00284M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_west_end/NLB_517605808EDR_F0542202NCAM00284M_.jpg": {
+    "bytes": 598389,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1353 - Bagnold Dunes West End",
+    "downloaded_utc": "2026-11-15T02:03:20Z",
+    "sha256": "9737d09f63194b9c229c4297dae51785ec519cd17b3efdbae28e52b102aa1194",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517605808EDR_F0542202NCAM00284M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_west_end/NLB_517611613EDR_F0542202NCAM07753M_.jpg": {
+    "bytes": 554702,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1353 - Bagnold Dunes West End",
+    "downloaded_utc": "2026-11-15T02:03:20Z",
+    "sha256": "79779bc02f4cb778897d942c9e41f66c2e91b4e70ba70931c73d46d798f8bac7",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517611613EDR_F0542202NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/bagnold_dunes_west_end/NLB_517611766EDR_F0542202NCAM07753M_.jpg": {
+    "bytes": 377474,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1353 - Bagnold Dunes West End",
+    "downloaded_utc": "2026-11-15T02:03:21Z",
+    "sha256": "4f57e357ff444ce74c79c0e92948387e66ad27ea2fdd1f4438c67a05801734ed",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517611766EDR_F0542202NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_first_close_up_sol_4536/NLB_800270638EDR_F1160156NCAM00282M_.jpg": {
+    "bytes": 553806,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4537 - Boxwork - first close-up (sol 4536)",
+    "downloaded_utc": "2026-11-15T02:03:43Z",
+    "sha256": "a024a09fa36815101226e9331e2a02044dbcf4524045401ccfb601cb72048c08",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04537/opgs/edr/ncam/NLB_800270638EDR_F1160156NCAM00282M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_first_close_up_sol_4536/NLB_800270701EDR_F1160156NCAM00282M_.jpg": {
+    "bytes": 497300,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4537 - Boxwork - first close-up (sol 4536)",
+    "downloaded_utc": "2026-11-15T02:03:44Z",
+    "sha256": "e91492c63c93905c0df3826c19d5d3857820748ba9d756a3afb7ec7664f50920",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04537/opgs/edr/ncam/NLB_800270701EDR_F1160156NCAM00282M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_first_close_up_sol_4536/NLB_800271620EDR_F1160156NCAM00283M_.jpg": {
+    "bytes": 524226,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4537 - Boxwork - first close-up (sol 4536)",
+    "downloaded_utc": "2026-11-15T02:03:44Z",
+    "sha256": "917ebc2469177391c4a9328d4eff701c79a8df236bfd006ad3e3d80b7c372803",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04537/opgs/edr/ncam/NLB_800271620EDR_F1160156NCAM00283M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_first_close_up_sol_4536/NLB_800271734EDR_F1160156NCAM00283M_.jpg": {
+    "bytes": 480218,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4537 - Boxwork - first close-up (sol 4536)",
+    "downloaded_utc": "2026-11-15T02:03:44Z",
+    "sha256": "443ab383bd195b705bf164d3239ce8df9ad9c776dcddcf84ca52784ef3cbcd37",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04537/opgs/edr/ncam/NLB_800271734EDR_F1160156NCAM00283M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_mid_sol_4602/NLB_806041920EDR_F1172490NCAM00259M_.jpg": {
+    "bytes": 516375,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4602 - Boxwork - mid (sol 4602)",
+    "downloaded_utc": "2026-11-15T02:03:48Z",
+    "sha256": "f319c2e06aa0e9edee899a2b688b2ca7cd0f7b8f159391b45ca340dd42531f25",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806041920EDR_F1172490NCAM00259M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_mid_sol_4602/NLB_806042016EDR_F1172490NCAM00259M_.jpg": {
+    "bytes": 658107,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4602 - Boxwork - mid (sol 4602)",
+    "downloaded_utc": "2026-11-15T02:03:47Z",
+    "sha256": "b981ed4f741d9d65636f21cd41dd536ae30d3687bc8d4d7fb0c43196b2aeb6ae",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806042016EDR_F1172490NCAM00259M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_mid_sol_4602/NLB_806042704EDR_F1172490NCAM00261M_.jpg": {
+    "bytes": 486500,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4602 - Boxwork - mid (sol 4602)",
+    "downloaded_utc": "2026-11-15T02:03:47Z",
+    "sha256": "c92accb35b4baa8b880afa83588a9e9cb1549abf6131b25ef0654747b5085402",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806042704EDR_F1172490NCAM00261M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_mid_sol_4602/NLB_806042850EDR_F1172490NCAM00261M_.jpg": {
+    "bytes": 343712,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4602 - Boxwork - mid (sol 4602)",
+    "downloaded_utc": "2026-11-15T02:03:47Z",
+    "sha256": "92204886675687dd72529a89caf6313fdbd9cb4f9ab388b00b1b92d4036c2955",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04602/opgs/edr/ncam/NLB_806042850EDR_F1172490NCAM00261M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_south_sol_4669/NLB_811979360EDR_F1190198NCAM00291M_.jpg": {
+    "bytes": 627872,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4669 - Boxwork - south (sol 4669)",
+    "downloaded_utc": "2026-11-15T02:03:50Z",
+    "sha256": "d887aa82cd18919a58ad05b2513b3765bc86c048bfdfb9c6b6d83eda3dedd96b",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811979360EDR_F1190198NCAM00291M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_south_sol_4669/NLB_811979432EDR_F1190198NCAM00291M_.jpg": {
+    "bytes": 659410,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4669 - Boxwork - south (sol 4669)",
+    "downloaded_utc": "2026-11-15T02:03:50Z",
+    "sha256": "aadb1f10489b088a0bf1ecb4d26d4c9148530434ed46e9480ebf914157587ddb",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811979432EDR_F1190198NCAM00291M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_south_sol_4669/NLB_811980009EDR_F1190198NCAM00292M_.jpg": {
+    "bytes": 423302,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4669 - Boxwork - south (sol 4669)",
+    "downloaded_utc": "2026-11-15T02:03:50Z",
+    "sha256": "ab94e8c85626c25f69825ce1be2fd8265cfff521297c499e7e7a7ebb9201b34f",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811980009EDR_F1190198NCAM00292M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/boxwork_south_sol_4669/NLB_811980095EDR_F1190198NCAM00292M_.jpg": {
+    "bytes": 536509,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 4669 - Boxwork - south (sol 4669)",
+    "downloaded_utc": "2026-11-15T02:03:51Z",
+    "sha256": "85761a00edd102891c0f6ddc2254fde70713688abd2efc734aec0072754f40bd",
+    "source": "https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/04669/opgs/edr/ncam/NLB_811980095EDR_F1190198NCAM00292M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/darwin_outcrop/NLB_432125318EDR_F0160000NCAM00297M_.jpg": {
+    "bytes": 636802,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 390 - Darwin Outcrop",
+    "downloaded_utc": "2026-11-15T02:02:59Z",
+    "sha256": "29de6ec124c254d359d8f33da8808661573f163e053c059270fbed606a52d8e4",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00390/opgs/edr/ncam/NLB_432125318EDR_F0160000NCAM00297M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/darwin_outcrop/NLB_432129675EDR_F0160000NCAM00298M_.jpg": {
+    "bytes": 398991,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 390 - Darwin Outcrop",
+    "downloaded_utc": "2026-11-15T02:03:00Z",
+    "sha256": "c26bef840833bd3f67d999092580cfc5ed3ffb7caaa10809f9d9288f0c3603ac",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00390/opgs/edr/ncam/NLB_432129675EDR_F0160000NCAM00298M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/darwin_outcrop/NLB_432129737EDR_F0160000NCAM00298M_.jpg": {
+    "bytes": 389749,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 390 - Darwin Outcrop",
+    "downloaded_utc": "2026-11-15T02:03:01Z",
+    "sha256": "514315d73e5e7c6b6ea961f41d387d869f7715117222b4f7b5933fe3e7430077",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00390/opgs/edr/ncam/NLB_432129737EDR_F0160000NCAM00298M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/darwin_outcrop/NLB_432129910EDR_F0160000NCAM00298M_.jpg": {
+    "bytes": 415357,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 390 - Darwin Outcrop",
+    "downloaded_utc": "2026-11-15T02:03:01Z",
+    "sha256": "4eb7b8ca7eaa35427893332da70841204fe19945a58b61c1392ff0f771af5684",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00390/opgs/edr/ncam/NLB_432129910EDR_F0160000NCAM00298M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/hematite_hotspot/NLB_575399321EDR_F0690408NCAM00272M_.jpg": {
+    "bytes": 401386,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 2004 - Hematite Hotspot",
+    "downloaded_utc": "2026-11-15T02:03:40Z",
+    "sha256": "390d630e660a00e620b22098d39cd62410cb3888fa823180a270aafc1a05f7e6",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575399321EDR_F0690408NCAM00272M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/hematite_hotspot/NLB_575399414EDR_F0690408NCAM00272M_.jpg": {
+    "bytes": 548128,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 2004 - Hematite Hotspot",
+    "downloaded_utc": "2026-11-15T02:03:40Z",
+    "sha256": "e393bc03e4deaa7e283eec0a458fb9be0bd0d8af264ac0d927a6930a3a85479a",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575399414EDR_F0690408NCAM00272M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/hematite_hotspot/NLB_575404743EDR_F0690408NCAM00273M_.jpg": {
+    "bytes": 617989,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 2004 - Hematite Hotspot",
+    "downloaded_utc": "2026-11-15T02:03:39Z",
+    "sha256": "8653ac17fc589c8968ba792ce42d927250ab864f6c5bf942a819166d0a918b6b",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575404743EDR_F0690408NCAM00273M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/hematite_hotspot/NLB_575404837EDR_F0690408NCAM00273M_.jpg": {
+    "bytes": 473856,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 2004 - Hematite Hotspot",
+    "downloaded_utc": "2026-11-15T02:03:39Z",
+    "sha256": "b607f3043d08d072d79a1823381b19e5cedd2542b4ec08f7a21ddd3f10a95d52",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575404837EDR_F0690408NCAM00273M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/marias_pass/NLB_484578413EDR_F0471452NCAM00259M_.jpg": {
+    "bytes": 526949,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 981 - Marias Pass",
+    "downloaded_utc": "2026-11-15T02:03:14Z",
+    "sha256": "28ae52c3594a60efbdc7ead197e5525f543e20a36a495ae0eb442de85f403104",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578413EDR_F0471452NCAM00259M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/marias_pass/NLB_484578752EDR_F0471452NCAM07753M_.jpg": {
+    "bytes": 644912,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 981 - Marias Pass",
+    "downloaded_utc": "2026-11-15T02:03:12Z",
+    "sha256": "e963acb268b2091e1b7619dc1993af6a5bd775f72e4404027333ee43d1b18fd2",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578752EDR_F0471452NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/marias_pass/NLB_484578816EDR_F0471452NCAM07753M_.jpg": {
+    "bytes": 537713,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 981 - Marias Pass",
+    "downloaded_utc": "2026-11-15T02:03:13Z",
+    "sha256": "5dd2e8dc6fe9aac64eae61b18a2f37e9b18994e565d829ad0580eb2afc1e8764",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578816EDR_F0471452NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/marias_pass/NLB_484578931EDR_F0471452NCAM07753M_.jpg": {
+    "bytes": 406762,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 981 - Marias Pass",
+    "downloaded_utc": "2026-11-15T02:03:13Z",
+    "sha256": "647d8ccae67f25f307014be4541f4f63728dbbe0131fdf6e975176eb10268cf4",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578931EDR_F0471452NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/murray_buttes/NLB_526585744EDR_F0572582NCAM00297M_.jpg": {
+    "bytes": 580957,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1454 - Murray Buttes",
+    "downloaded_utc": "2026-11-15T02:03:24Z",
+    "sha256": "4d130f798e0ddc261fb349ca7b4a0de4469680ae6196fc0671e2a5cacf90fd0a",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526585744EDR_F0572582NCAM00297M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/murray_buttes/NLB_526586277EDR_F0572582NCAM00298M_.jpg": {
+    "bytes": 381935,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1454 - Murray Buttes",
+    "downloaded_utc": "2026-11-15T02:03:25Z",
+    "sha256": "14592e04dbbc53665584c0057bd26f0eb096481b6a537946a988e352ffd52517",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526586277EDR_F0572582NCAM00298M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/murray_buttes/NLB_526586375EDR_F0572582NCAM00298M_.jpg": {
+    "bytes": 505625,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1454 - Murray Buttes",
+    "downloaded_utc": "2026-11-15T02:03:25Z",
+    "sha256": "80ad8a6e7c597a43bf378278f65f29e9e7c2ed8b07f29d27f6e6296bf63ede4a",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526586375EDR_F0572582NCAM00298M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/murray_buttes/NLB_526586467EDR_F0572582NCAM00298M_.jpg": {
+    "bytes": 336970,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1454 - Murray Buttes",
+    "downloaded_utc": "2026-11-15T02:03:24Z",
+    "sha256": "005a4717cbf96f0f9892af685dca134a671b31b8d5b0d053841dd178aea33805",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526586467EDR_F0572582NCAM00298M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/pahrump_hills/NLB_464174717EDR_F0420852NCAM00281M_.jpg": {
+    "bytes": 732582,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 751 - Pahrump Hills",
+    "downloaded_utc": "2026-11-15T02:03:09Z",
+    "sha256": "31e03a517c10d0ec23d5f938c62f41a68576450e89ce371ba86ac7cffc2ef876",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464174717EDR_F0420852NCAM00281M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/pahrump_hills/NLB_464175247EDR_F0420852NCAM07753M_.jpg": {
+    "bytes": 272991,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 751 - Pahrump Hills",
+    "downloaded_utc": "2026-11-15T02:03:09Z",
+    "sha256": "70f7d25a1b32c0a1f489598c07eca3dc5abaf19664a12123562cd351b661ed94",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464175247EDR_F0420852NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/pahrump_hills/NLB_464175308EDR_F0420852NCAM07753M_.jpg": {
+    "bytes": 407874,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 751 - Pahrump Hills",
+    "downloaded_utc": "2026-11-15T02:03:10Z",
+    "sha256": "69f9a59f1aa8d7347f0209eaca4b6f5a9d0fbd75ec61d616ff4e867a6a431db9",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464175308EDR_F0420852NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/pahrump_hills/NLB_464175423EDR_F0420852NCAM07753M_.jpg": {
+    "bytes": 383016,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 751 - Pahrump Hills",
+    "downloaded_utc": "2026-11-15T02:03:10Z",
+    "sha256": "0fcbda14a4b37b94c612aa07939ec5673367949021c3721f07eb4445b83b0382",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464175423EDR_F0420852NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/the_kimberly/NLB_448457285EDR_F0300740NCAM00251M_.jpg": {
+    "bytes": 534163,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 574 - The Kimberly",
+    "downloaded_utc": "2026-11-15T02:03:03Z",
+    "sha256": "5cee0150d0f20c757995100b6927b9c05ee62d55c17c32c9c6720ec759866591",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00574/opgs/edr/ncam/NLB_448457285EDR_F0300740NCAM00251M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/the_kimberly/NLB_448462429EDR_F0300740NCAM00252M_.jpg": {
+    "bytes": 347193,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 574 - The Kimberly",
+    "downloaded_utc": "2026-11-15T02:03:04Z",
+    "sha256": "713c2370730f56542f8c6260ae3613f7770611d0ddb120a652953f0b19b6a448",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00574/opgs/edr/ncam/NLB_448462429EDR_F0300740NCAM00252M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/the_kimberly/NLB_448462574EDR_F0300740NCAM00252M_.jpg": {
+    "bytes": 368031,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 574 - The Kimberly",
+    "downloaded_utc": "2026-11-15T02:03:05Z",
+    "sha256": "7c926974ef31c10e28d3801d4bb0f4bf2c2f1ca512a4067fecca7432f3ea50e2",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00574/opgs/edr/ncam/NLB_448462574EDR_F0300740NCAM00252M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/the_kimberly/NLB_448462669EDR_F0300740NCAM00252M_.jpg": {
+    "bytes": 515502,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 574 - The Kimberly",
+    "downloaded_utc": "2026-11-15T02:03:05Z",
+    "sha256": "91361dd054f7716d399899a92f284dbac87e03e96b508eb5f8bb400699f10abe",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00574/opgs/edr/ncam/NLB_448462669EDR_F0300740NCAM00252M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/top_of_vera_rubin_ridge/NLB_558096844EDR_F0653308NCAM00250M_.jpg": {
+    "bytes": 627102,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1809 - Top of Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:34Z",
+    "sha256": "808e47a02ef35e0cf54de5cdfd4220ae534b16b4f4d31b4e068b58c49e4746ce",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558096844EDR_F0653308NCAM00250M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/top_of_vera_rubin_ridge/NLB_558097408EDR_F0653308NCAM07753M_.jpg": {
+    "bytes": 473200,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1809 - Top of Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:35Z",
+    "sha256": "8a53d1c93f5427bf564cbf2114d83785aa513bf4d5b33d3bd882180a136cac8d",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558097408EDR_F0653308NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/top_of_vera_rubin_ridge/NLB_558097523EDR_F0653308NCAM07753M_.jpg": {
+    "bytes": 423780,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1809 - Top of Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:35Z",
+    "sha256": "758c734b337fcceef79b309a33bf88fa0eb207b73b238809f712b14fe16bb62f",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558097523EDR_F0653308NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/top_of_vera_rubin_ridge/NLB_558097585EDR_F0653308NCAM07753M_.jpg": {
+    "bytes": 495263,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1809 - Top of Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:36Z",
+    "sha256": "b9d245e13e472ef6c4d886440d49de44f280ca8806862d80ed7220a7f32648e8",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558097585EDR_F0653308NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/vera_rubin_ridge/NLB_552050396EDR_F0641626NCAM00299M_.jpg": {
+    "bytes": 476522,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1741 - Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:33Z",
+    "sha256": "4ebc205fc63e07b690168185f4cbe8003b8bcb2622824d554ffff9f0dd55a7b6",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552050396EDR_F0641626NCAM00299M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/vera_rubin_ridge/NLB_552050953EDR_F0641626NCAM07753M_.jpg": {
+    "bytes": 445940,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1741 - Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:31Z",
+    "sha256": "cc949f44d1ad74bac5f283ff62aa2afc1220232e12645f62ae7f22952de5a7c5",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552050953EDR_F0641626NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/vera_rubin_ridge/NLB_552051009EDR_F0641626NCAM07753M_.jpg": {
+    "bytes": 478089,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1741 - Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:32Z",
+    "sha256": "fb8ce51f8e1153e9c59ceb16038edbd2cbe099234f1f5ebf11c97cb9f5bbaaeb",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552051009EDR_F0641626NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/photos/vera_rubin_ridge/NLB_552051124EDR_F0641626NCAM07753M_.jpg": {
+    "bytes": 406177,
+    "credit": "NASA/JPL-Caltech",
+    "description": "Curiosity NAV_LEFT_B sol 1741 - Vera Rubin Ridge",
+    "downloaded_utc": "2026-11-15T02:03:32Z",
+    "sha256": "f90c8f2ebc689624240078c431a2599ec9e4b550f33542b820d3036530bff50d",
+    "source": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552051124EDR_F0641626NCAM07753M_.JPG (NASA raw images API)"
+  },
+  "data/raw/rad/msl_rad_dose_2012.csv": {
+    "bytes": 11022,
+    "description": "Dosis RAD de Curiosity en superficie, 2012-08-06 a 2012-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:57:58Z",
+    "rows": 42,
+    "sha256": "686049f2c683e8a816647de1c8d63d12ef89d8d8e0a6967250bba1de5c000c6d",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2013.csv": {
+    "bytes": 723307,
+    "description": "Dosis RAD de Curiosity en superficie, 2013-01-01 a 2013-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:58:08Z",
+    "rows": 12728,
+    "sha256": "8eb56419555dfa6841ed63e3efb47b5dc6b22be5b485d2ff0c779d882afadf07",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2014.csv": {
+    "bytes": 1777632,
+    "description": "Dosis RAD de Curiosity en superficie, 2014-01-01 a 2014-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:58:29Z",
+    "rows": 31128,
+    "sha256": "570ef6719812378d60b6a9a2c97cdb6a6908778d0a359e1a8fde6863ab68c83b",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2015.csv": {
+    "bytes": 1662987,
+    "description": "Dosis RAD de Curiosity en superficie, 2015-01-01 a 2015-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:58:47Z",
+    "rows": 29150,
+    "sha256": "dd87766b5fc7ce49fef1beff990d78e8d7132d730bcc18960e9e801035f2b7c3",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2016.csv": {
+    "bytes": 1778549,
+    "description": "Dosis RAD de Curiosity en superficie, 2016-01-01 a 2016-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:59:03Z",
+    "rows": 31169,
+    "sha256": "6313f88b75dd565ad2485a8c5e160edc8cd4f6d6d9bdcbc237078f66be1a9b82",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2017.csv": {
+    "bytes": 1789673,
+    "description": "Dosis RAD de Curiosity en superficie, 2017-01-01 a 2017-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:59:20Z",
+    "rows": 31343,
+    "sha256": "93d05ac28b3c512a15ed4d6408a32c0030e9ea9268bfa542a0a605be2f292a90",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2018.csv": {
+    "bytes": 1637730,
+    "description": "Dosis RAD de Curiosity en superficie, 2018-01-01 a 2018-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:59:36Z",
+    "rows": 28690,
+    "sha256": "b50088719078d650791eb345c1e07b4e3304bb95b6b87e880a8dbe745492bbd4",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2019.csv": {
+    "bytes": 1763150,
+    "description": "Dosis RAD de Curiosity en superficie, 2019-01-01 a 2019-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T01:59:55Z",
+    "rows": 30935,
+    "sha256": "4b067a81ed27a8df9fd1039f13b3d6dea4b3175fb147e96c1dae4aa38773f722",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2020.csv": {
+    "bytes": 1758319,
+    "description": "Dosis RAD de Curiosity en superficie, 2020-01-01 a 2020-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:00:12Z",
+    "rows": 30849,
+    "sha256": "e29934e9c93265a2f3020ec3f8feea0778c9e34aabc149bc76c9701df6d18b6d",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2021.csv": {
+    "bytes": 1770837,
+    "description": "Dosis RAD de Curiosity en superficie, 2021-01-01 a 2021-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:00:33Z",
+    "rows": 31072,
+    "sha256": "e425392ed798e88d4513bcf3e63cec226c40c26a216a7abbdc793a9781566745",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2022.csv": {
+    "bytes": 1777377,
+    "description": "Dosis RAD de Curiosity en superficie, 2022-01-01 a 2022-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:00:52Z",
+    "rows": 31177,
+    "sha256": "2af1270af0f8e1432ca7645f6103a72bf0e57a85bdfcc5d3e505510bc155b65c",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2023.csv": {
+    "bytes": 1739485,
+    "description": "Dosis RAD de Curiosity en superficie, 2023-01-01 a 2023-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:01:13Z",
+    "rows": 30555,
+    "sha256": "c73a9f9b907b469d30a2c20968c16ff12ed67b9704c47c97519b946072d613d2",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2024.csv": {
+    "bytes": 1772700,
+    "description": "Dosis RAD de Curiosity en superficie, 2024-01-01 a 2024-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:01:35Z",
+    "rows": 31195,
+    "sha256": "f083e804e177e2b3e3a2902f04d05b0e32efb17dcdd94f7554caf7bf921db984",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2025.csv": {
+    "bytes": 1762984,
+    "description": "Dosis RAD de Curiosity en superficie, 2025-01-01 a 2025-12-31 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:01:56Z",
+    "rows": 31059,
+    "sha256": "2f7976651d7a02ee2d8525190ab7be4a41621adb5d02329bf93c37932d4aa325",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rad/msl_rad_dose_2026.csv": {
+    "bytes": 1518180,
+    "description": "Dosis RAD de Curiosity en superficie, 2026-01-01 a 2026-11-10 (µGy/día, dosis absorbida)",
+    "downloaded_utc": "2026-11-15T02:02:17Z",
+    "rows": 26725,
+    "sha256": "ef813626218536458dc5e3e3a3c1577d4cee647a4a313f4502df80088d97aa38",
+    "source": "https://cdaweb.gsfc.nasa.gov/WS/cdasr/1/dataviews/sp_phys/datasets/MSL_RAD_OBS-L2/data/<rango trimestral>/DOSIMETRY_TOTAL_f?format=csv (CDAWeb, NASA SPDF)"
+  },
+  "data/raw/rems/SOL01200/RME_503975761RMD12000000000_______P2.TAB": {
+    "bytes": 10595676,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1200",
+    "downloaded_utc": "2026-11-15T02:04:20Z",
+    "sha256": "90608dbf5d23d68b98eed198d87a25694023b278fa967ee35883be2a09217bd6",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01160_01293/SOL01200/RME_503975761RMD12000000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01200/RME_503975761RMD12000000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1200",
+    "downloaded_utc": "2026-11-15T02:04:22Z",
+    "sha256": "63748a85c89708e8902b92b4cbf3a84988082bac438517c9ad57c8a74ef2a686",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01160_01293/SOL01200/RME_503975761RMD12000000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01280/RME_511077714RMD12800000000_______P2.TAB": {
+    "bytes": 13871508,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1280",
+    "downloaded_utc": "2026-11-15T02:06:00Z",
+    "sha256": "ba9ef134492270d6a6a2b563c9b3ef655b5244f663f654ef179de1f7de6e90fa",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01160_01293/SOL01280/RME_511077714RMD12800000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01280/RME_511077714RMD12800000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1280",
+    "downloaded_utc": "2026-11-15T02:06:01Z",
+    "sha256": "cf8da70339f59a42be0bd6ebd09b75b616ce327e7a427adec2e182d467a32a64",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01160_01293/SOL01280/RME_511077714RMD12800000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01360/RME_518179666RMD13600000000_______P3.TAB": {
+    "bytes": 10318536,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1360",
+    "downloaded_utc": "2026-11-15T02:06:42Z",
+    "sha256": "0120f6381cba26d9f1134ad1a8770d69a4dd1e86669ffffe1648e264b9c955e1",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01294_01417/SOL01360/RME_518179666RMD13600000000_______P3.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01360/RME_518179666RMD13600000000_______P3.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1360",
+    "downloaded_utc": "2026-11-15T02:06:43Z",
+    "sha256": "84e1560ddb4eb53e618cbc5c8f81aa1b926ed2018591426f5ef8b35b2da8d0b0",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01294_01417/SOL01360/RME_518179666RMD13600000000_______P3.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01440/RME_525281619RMD14400000000_______P2.TAB": {
+    "bytes": 11878704,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1440",
+    "downloaded_utc": "2026-11-15T02:07:58Z",
+    "sha256": "800718def213e82b81551f45383cf9d2fb0d87a668f110395b4affabb522d76d",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01418_01514/SOL01440/RME_525281619RMD14400000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01440/RME_525281619RMD14400000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1440",
+    "downloaded_utc": "2026-11-15T02:07:58Z",
+    "sha256": "6f40b697b6e7874998323c03923cf3665463fbf585b3f3d9a5fbe6903e18ac2b",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01418_01514/SOL01440/RME_525281619RMD14400000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01520/RME_532383571RMD15200000000_______P2.TAB": {
+    "bytes": 12907656,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1520",
+    "downloaded_utc": "2026-11-15T02:09:02Z",
+    "sha256": "08cf044cf490caf58c79a8113bff6f8c4ef262ab2800a519cddd78624bd8fa8e",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01515_01648/SOL01520/RME_532383571RMD15200000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01520/RME_532383571RMD15200000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1520",
+    "downloaded_utc": "2026-11-15T02:09:03Z",
+    "sha256": "db454572089a1e5cfc5ae12797d858c0818b312b681d7782fef11aae500ab162",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01515_01648/SOL01520/RME_532383571RMD15200000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01600/RME_539485524RMD16000000000_______P2.TAB": {
+    "bytes": 12744348,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1600",
+    "downloaded_utc": "2026-11-15T02:11:00Z",
+    "sha256": "c5c8f2669331af72ac7863188bb437f3fd9eb23acc1de927e7664e5dd63ad981",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01515_01648/SOL01600/RME_539485524RMD16000000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01600/RME_539485524RMD16000000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1600",
+    "downloaded_utc": "2026-11-15T02:11:02Z",
+    "sha256": "7cf5f36543171d6df79fa21ffa0b295de13a3ad2d246bcd7847d9ff6d84bba9b",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01515_01648/SOL01600/RME_539485524RMD16000000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01680/RME_546587476RMD16800000000_______P2.TAB": {
+    "bytes": 12841440,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1680",
+    "downloaded_utc": "2026-11-15T02:13:14Z",
+    "sha256": "7d9d6dba3f77456424d208b34e17c536f467ee808d6e781f8c8c0c51be7dc78f",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01649_01772/SOL01680/RME_546587476RMD16800000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01680/RME_546587476RMD16800000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1680",
+    "downloaded_utc": "2026-11-15T02:13:16Z",
+    "sha256": "89c39c80e911cfc82e1d3671c65b4f53c1f8fae6ffd879eda840f434de674789",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01649_01772/SOL01680/RME_546587476RMD16800000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01760/RME_553689429RMD17600000000_______P2.TAB": {
+    "bytes": 14102892,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1760",
+    "downloaded_utc": "2026-11-15T02:15:41Z",
+    "sha256": "e4754d18f79b177cb17b84148e90161923eb42d509dce24201c55603059aeb0b",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01649_01772/SOL01760/RME_553689429RMD17600000000_______P2.TAB (PDS Atmospheres Node, NASA)"
+  },
+  "data/raw/rems/SOL01760/RME_553689429RMD17600000000_______P2.xml": {
+    "bytes": 28158,
+    "description": "REMS MODRDR (RMD) de Curiosity, sol 1760",
+    "downloaded_utc": "2026-11-15T02:15:41Z",
+    "sha256": "d57a7fc62bd5f48c731f0eae0a3b48cedc2e179d3afbc566b61717364d3ee28c",
+    "source": "https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated/SOL_01649_01772/SOL01760/RME_553689429RMD17600000000_______P2.xml (PDS Atmospheres Node, NASA)"
+  }
+}

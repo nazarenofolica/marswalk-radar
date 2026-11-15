@@ -1,0 +1,19 @@
+{
+  "name": "themis_ir_night_context",
+  "description": "Mars Odyssey THEMIS-IR noche, mosaico controlado 100 m (~80 m/px en el zoom 9)",
+  "wmts_zoom": 9,
+  "bbox_lon": [
+    137.12173461914062,
+    137.7301025390625
+  ],
+  "bbox_lat": [
+    -4.925994873046875,
+    -4.24896240234375
+  ],
+  "width_px": 443,
+  "height_px": 493,
+  "pixel_deg": 0.001373291015625,
+  "pixel_m_nominal": 81.24,
+  "row0_is": "north",
+  "mode": "RGBA"
+}
