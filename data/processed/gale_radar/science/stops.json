@@ -1,0 +1,519 @@
+[
+ {
+  "name": "Pahrump Hills",
+  "id": "pahrump_hills",
+  "role": "start",
+  "visited": true,
+  "order": 0,
+  "lon": 137.37724353716703,
+  "lat": -4.66241193815176,
+  "x": 2077.94,
+  "y": 4589.95,
+  "z": -4462.41,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 0.0,
+  "dist_m": 0.0,
+  "dwell_min": 0,
+  "curiosity_sol_nearby": 751,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/pahrump_hills/NLB_464174717EDR_F0420852NCAM00281M_.jpg",
+    "sol": 751,
+    "date_utc": "2014-09-16",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464174717EDR_F0420852NCAM00281M_.JPG",
+    "stop_match_error_m": 0
+   },
+   {
+    "file": "photos/pahrump_hills/NLB_464175247EDR_F0420852NCAM07753M_.jpg",
+    "sol": 751,
+    "date_utc": "2014-09-16",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464175247EDR_F0420852NCAM07753M_.JPG",
+    "stop_match_error_m": 0
+   },
+   {
+    "file": "photos/pahrump_hills/NLB_464175308EDR_F0420852NCAM07753M_.jpg",
+    "sol": 751,
+    "date_utc": "2014-09-16",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464175308EDR_F0420852NCAM07753M_.JPG",
+    "stop_match_error_m": 0
+   },
+   {
+    "file": "photos/pahrump_hills/NLB_464175423EDR_F0420852NCAM07753M_.jpg",
+    "sol": 751,
+    "date_utc": "2014-09-16",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00751/opgs/edr/ncam/NLB_464175423EDR_F0420852NCAM07753M_.JPG",
+    "stop_match_error_m": 0
+   }
+  ]
+ },
+ {
+  "name": "Marias Pass",
+  "id": "marias_pass",
+  "role": "science",
+  "visited": true,
+  "order": 1,
+  "lon": 137.37140256639952,
+  "lat": -4.667938835464834,
+  "x": 1733.56,
+  "y": 4262.99,
+  "z": -4456.13,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 13.48,
+  "dist_m": 498.1,
+  "depart_t_min": 33.48,
+  "dwell_min": 20.0,
+  "curiosity_sol_nearby": 981,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/marias_pass/NLB_484578752EDR_F0471452NCAM07753M_.jpg",
+    "sol": 981,
+    "date_utc": "2015-05-11",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578752EDR_F0471452NCAM07753M_.JPG",
+    "stop_match_error_m": 6
+   },
+   {
+    "file": "photos/marias_pass/NLB_484578816EDR_F0471452NCAM07753M_.jpg",
+    "sol": 981,
+    "date_utc": "2015-05-11",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578816EDR_F0471452NCAM07753M_.JPG",
+    "stop_match_error_m": 6
+   },
+   {
+    "file": "photos/marias_pass/NLB_484578931EDR_F0471452NCAM07753M_.jpg",
+    "sol": 981,
+    "date_utc": "2015-05-11",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578931EDR_F0471452NCAM07753M_.JPG",
+    "stop_match_error_m": 6
+   },
+   {
+    "file": "photos/marias_pass/NLB_484578413EDR_F0471452NCAM00259M_.jpg",
+    "sol": 981,
+    "date_utc": "2015-05-11",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/00981/opgs/edr/ncam/NLB_484578413EDR_F0471452NCAM00259M_.JPG",
+    "stop_match_error_m": 6
+   }
+  ]
+ },
+ {
+  "name": "Bagnold Dunes",
+  "id": "bagnold_dunes",
+  "role": "science",
+  "visited": true,
+  "order": 2,
+  "lon": 137.36569185998553,
+  "lat": -4.6790747129721195,
+  "x": 1396.86,
+  "y": 3604.21,
+  "z": -4425.03,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 55.94,
+  "dist_m": 1297.8,
+  "depart_t_min": 75.94,
+  "dwell_min": 20.0,
+  "curiosity_sol_nearby": 1174,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/bagnold_dunes/NLB_501719336EDR_F0511102NCAM00257M_.jpg",
+    "sol": 1174,
+    "date_utc": "2015-11-25",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719336EDR_F0511102NCAM00257M_.JPG",
+    "stop_match_error_m": 9
+   },
+   {
+    "file": "photos/bagnold_dunes/NLB_501719625EDR_F0511102NCAM07753M_.jpg",
+    "sol": 1174,
+    "date_utc": "2015-11-25",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719625EDR_F0511102NCAM07753M_.JPG",
+    "stop_match_error_m": 9
+   },
+   {
+    "file": "photos/bagnold_dunes/NLB_501719770EDR_F0511102NCAM07753M_.jpg",
+    "sol": 1174,
+    "date_utc": "2015-11-25",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719770EDR_F0511102NCAM07753M_.JPG",
+    "stop_match_error_m": 9
+   },
+   {
+    "file": "photos/bagnold_dunes/NLB_501719248EDR_F0511102NCAM00257M_.jpg",
+    "sol": 1174,
+    "date_utc": "2015-11-25",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01174/opgs/edr/ncam/NLB_501719248EDR_F0511102NCAM00257M_.JPG",
+    "stop_match_error_m": 9
+   }
+  ]
+ },
+ {
+  "name": "Murray Buttes",
+  "id": "murray_buttes",
+  "role": "science",
+  "visited": true,
+  "order": 3,
+  "lon": 137.35334,
+  "lat": -4.6954,
+  "x": 668.6,
+  "y": 2638.44,
+  "z": -4380.16,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 112.86,
+  "dist_m": 2613.3,
+  "depart_t_min": 132.86,
+  "dwell_min": 20.0,
+  "curiosity_sol_nearby": 1454,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/murray_buttes/NLB_526586467EDR_F0572582NCAM00298M_.jpg",
+    "sol": 1454,
+    "date_utc": "2016-09-08",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526586467EDR_F0572582NCAM00298M_.JPG",
+    "stop_match_error_m": 12
+   },
+   {
+    "file": "photos/murray_buttes/NLB_526585744EDR_F0572582NCAM00297M_.jpg",
+    "sol": 1454,
+    "date_utc": "2016-09-08",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526585744EDR_F0572582NCAM00297M_.JPG",
+    "stop_match_error_m": 12
+   },
+   {
+    "file": "photos/murray_buttes/NLB_526586277EDR_F0572582NCAM00298M_.jpg",
+    "sol": 1454,
+    "date_utc": "2016-09-08",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526586277EDR_F0572582NCAM00298M_.JPG",
+    "stop_match_error_m": 12
+   },
+   {
+    "file": "photos/murray_buttes/NLB_526586375EDR_F0572582NCAM00298M_.jpg",
+    "sol": 1454,
+    "date_utc": "2016-09-08",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01454/opgs/edr/ncam/NLB_526586375EDR_F0572582NCAM00298M_.JPG",
+    "stop_match_error_m": 12
+   }
+  ]
+ },
+ {
+  "name": "Bagnold Dunes South",
+  "id": "bagnold_dunes_south",
+  "role": "science",
+  "visited": true,
+  "order": 4,
+  "lon": 137.35722,
+  "lat": -4.7112,
+  "x": 897.36,
+  "y": 1703.75,
+  "z": -4311.84,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 164.09,
+  "dist_m": 3640.4,
+  "depart_t_min": 184.09,
+  "dwell_min": 20.0,
+  "curiosity_sol_nearby": 1601,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/bagnold_dunes_south/NLB_539621513EDR_F0603162NCAM00260M_.jpg",
+    "sol": 1601,
+    "date_utc": "2017-02-06",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621513EDR_F0603162NCAM00260M_.JPG",
+    "stop_match_error_m": 2
+   },
+   {
+    "file": "photos/bagnold_dunes_south/NLB_539621172EDR_F0603162NCAM00259M_.jpg",
+    "sol": 1601,
+    "date_utc": "2017-02-06",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621172EDR_F0603162NCAM00259M_.JPG",
+    "stop_match_error_m": 2
+   },
+   {
+    "file": "photos/bagnold_dunes_south/NLB_539621324EDR_F0603162NCAM00260M_.jpg",
+    "sol": 1601,
+    "date_utc": "2017-02-06",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621324EDR_F0603162NCAM00260M_.JPG",
+    "stop_match_error_m": 2
+   },
+   {
+    "file": "photos/bagnold_dunes_south/NLB_539621417EDR_F0603162NCAM00260M_.jpg",
+    "sol": 1601,
+    "date_utc": "2017-02-06",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01601/opgs/edr/ncam/NLB_539621417EDR_F0603162NCAM00260M_.JPG",
+    "stop_match_error_m": 2
+   }
+  ]
+ },
+ {
+  "name": "Vera Rubin Ridge",
+  "id": "vera_rubin_ridge",
+  "role": "science",
+  "visited": true,
+  "order": 5,
+  "lon": 137.36832,
+  "lat": -4.72053,
+  "x": 1551.81,
+  "y": 1151.8,
+  "z": -4234.04,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 213.16,
+  "dist_m": 4522.9,
+  "depart_t_min": 233.16,
+  "dwell_min": 20.0,
+  "curiosity_sol_nearby": 1741,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/vera_rubin_ridge/NLB_552050953EDR_F0641626NCAM07753M_.jpg",
+    "sol": 1741,
+    "date_utc": "2017-06-29",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552050953EDR_F0641626NCAM07753M_.JPG",
+    "stop_match_error_m": 8
+   },
+   {
+    "file": "photos/vera_rubin_ridge/NLB_552051009EDR_F0641626NCAM07753M_.jpg",
+    "sol": 1741,
+    "date_utc": "2017-06-29",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552051009EDR_F0641626NCAM07753M_.JPG",
+    "stop_match_error_m": 8
+   },
+   {
+    "file": "photos/vera_rubin_ridge/NLB_552051124EDR_F0641626NCAM07753M_.jpg",
+    "sol": 1741,
+    "date_utc": "2017-06-29",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552051124EDR_F0641626NCAM07753M_.JPG",
+    "stop_match_error_m": 8
+   },
+   {
+    "file": "photos/vera_rubin_ridge/NLB_552050396EDR_F0641626NCAM00299M_.jpg",
+    "sol": 1741,
+    "date_utc": "2017-06-29",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01741/opgs/edr/ncam/NLB_552050396EDR_F0641626NCAM00299M_.JPG",
+    "stop_match_error_m": 8
+   }
+  ]
+ },
+ {
+  "name": "Top of Vera Rubin Ridge",
+  "id": "top_of_vera_rubin_ridge",
+  "role": "science",
+  "visited": true,
+  "order": 6,
+  "lon": 137.37273,
+  "lat": -4.72369,
+  "x": 1811.82,
+  "y": 964.87,
+  "z": -4188.36,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 246.37,
+  "dist_m": 4859.9,
+  "depart_t_min": 266.37,
+  "dwell_min": 20.0,
+  "curiosity_sol_nearby": 1809,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/top_of_vera_rubin_ridge/NLB_558096844EDR_F0653308NCAM00250M_.jpg",
+    "sol": 1809,
+    "date_utc": "2017-09-07",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558096844EDR_F0653308NCAM00250M_.JPG",
+    "stop_match_error_m": 1
+   },
+   {
+    "file": "photos/top_of_vera_rubin_ridge/NLB_558097408EDR_F0653308NCAM07753M_.jpg",
+    "sol": 1809,
+    "date_utc": "2017-09-07",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558097408EDR_F0653308NCAM07753M_.JPG",
+    "stop_match_error_m": 1
+   },
+   {
+    "file": "photos/top_of_vera_rubin_ridge/NLB_558097523EDR_F0653308NCAM07753M_.jpg",
+    "sol": 1809,
+    "date_utc": "2017-09-07",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558097523EDR_F0653308NCAM07753M_.JPG",
+    "stop_match_error_m": 1
+   },
+   {
+    "file": "photos/top_of_vera_rubin_ridge/NLB_558097585EDR_F0653308NCAM07753M_.jpg",
+    "sol": 1809,
+    "date_utc": "2017-09-07",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01809/opgs/edr/ncam/NLB_558097585EDR_F0653308NCAM07753M_.JPG",
+    "stop_match_error_m": 1
+   }
+  ]
+ },
+ {
+  "name": "Hematite Hotspot",
+  "id": "hematite_hotspot",
+  "role": "pickup",
+  "visited": true,
+  "order": 7,
+  "lon": 137.38036,
+  "lat": -4.72476,
+  "x": 2261.68,
+  "y": 901.57,
+  "z": -4146.96,
+  "snap_offset_m": 0.0,
+  "arrive_t_min": 282.45,
+  "dist_m": 5336.6,
+  "dwell_min": 0,
+  "curiosity_sol_nearby": 2004,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/hematite_hotspot/NLB_575404743EDR_F0690408NCAM00273M_.jpg",
+    "sol": 2004,
+    "date_utc": "2018-03-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575404743EDR_F0690408NCAM00273M_.JPG",
+    "stop_match_error_m": 0
+   },
+   {
+    "file": "photos/hematite_hotspot/NLB_575404837EDR_F0690408NCAM00273M_.jpg",
+    "sol": 2004,
+    "date_utc": "2018-03-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575404837EDR_F0690408NCAM00273M_.JPG",
+    "stop_match_error_m": 0
+   },
+   {
+    "file": "photos/hematite_hotspot/NLB_575399321EDR_F0690408NCAM00272M_.jpg",
+    "sol": 2004,
+    "date_utc": "2018-03-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575399321EDR_F0690408NCAM00272M_.JPG",
+    "stop_match_error_m": 0
+   },
+   {
+    "file": "photos/hematite_hotspot/NLB_575399414EDR_F0690408NCAM00272M_.jpg",
+    "sol": 2004,
+    "date_utc": "2018-03-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/02004/opgs/edr/ncam/NLB_575399414EDR_F0690408NCAM00272M_.JPG",
+    "stop_match_error_m": 0
+   }
+  ]
+ },
+ {
+  "name": "Bagnold Dunes West End",
+  "id": "bagnold_dunes_west_end",
+  "role": "context",
+  "visited": false,
+  "order": null,
+  "lon": 137.3577831264674,
+  "lat": -4.6785619391253634,
+  "x": 930.56,
+  "y": 3634.55,
+  "z": -4437.06,
+  "snap_offset_m": null,
+  "dwell_min": 0,
+  "curiosity_sol_nearby": 1353,
+  "science_note": "",
+  "science_source": "",
+  "photos": [
+   {
+    "file": "photos/bagnold_dunes_west_end/NLB_517605808EDR_F0542202NCAM00284M_.jpg",
+    "sol": 1353,
+    "date_utc": "2016-05-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517605808EDR_F0542202NCAM00284M_.JPG",
+    "stop_match_error_m": 7
+   },
+   {
+    "file": "photos/bagnold_dunes_west_end/NLB_517611613EDR_F0542202NCAM07753M_.jpg",
+    "sol": 1353,
+    "date_utc": "2016-05-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517611613EDR_F0542202NCAM07753M_.JPG",
+    "stop_match_error_m": 7
+   },
+   {
+    "file": "photos/bagnold_dunes_west_end/NLB_517611766EDR_F0542202NCAM07753M_.jpg",
+    "sol": 1353,
+    "date_utc": "2016-05-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517611766EDR_F0542202NCAM07753M_.JPG",
+    "stop_match_error_m": 7
+   },
+   {
+    "file": "photos/bagnold_dunes_west_end/NLB_517605736EDR_F0542202NCAM00284M_.jpg",
+    "sol": 1353,
+    "date_utc": "2016-05-27",
+    "instrument": "NAV_LEFT_B",
+    "credit": "NASA/JPL-Caltech",
+    "source_url": "https://mars.jpl.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01353/opgs/edr/ncam/NLB_517605736EDR_F0542202NCAM00284M_.JPG",
+    "stop_match_error_m": 7
+   }
+  ]
+ }
+]

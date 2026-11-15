@@ -1,0 +1,181 @@
+{
+ "schema_version": "radar-1.0",
+ "id": "gale_radar",
+ "name": "Marswalk Radar — Gale Crater: Pahrump Hills to Hematite Hotspot",
+ "generated_utc": "2026-11-15T21:07:29Z",
+ "crs": {
+  "body": "Mars",
+  "model": "sphere r = 3389.5 km",
+  "local_frame": "x = meters East, y = meters North, origin at the SW corner of the bbox",
+  "origin_lonlat": [
+   137.342,
+   -4.74
+  ]
+ },
+ "grids": {
+  "terrain_2m": {
+   "bbox_lon": [
+    137.342,
+    137.392
+   ],
+   "bbox_lat": [
+    -4.74,
+    -4.652
+   ],
+   "width_px": 1479,
+   "height_px": 2603,
+   "px_x_m": 1.993217,
+   "px_y_m": 1.999961,
+   "width_m": 2947.967,
+   "height_m": 5205.898,
+   "row0_is": "north",
+   "col0_is": "west"
+  },
+  "routing_4m": {
+   "bbox_lon": [
+    137.342,
+    137.392
+   ],
+   "bbox_lat": [
+    -4.74,
+    -4.652
+   ],
+   "width_px": 740,
+   "height_px": 1302,
+   "px_x_m": 3.98374,
+   "px_y_m": 3.998386,
+   "width_m": 2947.967,
+   "height_m": 5205.898,
+   "row0_is": "north",
+   "col0_is": "west"
+  }
+ },
+ "layers": {
+  "hillshade": {
+   "file": "terrain/hillshade.png",
+   "grid": "terrain_2m",
+   "encoding": "uint8 gray, 0 = dark, 255 = lit",
+   "units": "relative",
+   "source": "derived from MRO HiRISE DEM Gale_DEM_SMG_1m",
+   "derivation": "Gaussian smoothing sigma=1.0 px, light azimuth 315, altitude 45"
+  },
+  "hirise": {
+   "file": "terrain/hirise.png",
+   "grid": "terrain_2m",
+   "encoding": "uint8 gray brightness",
+   "units": "relative",
+   "source": "MRO HiRISE mosaic curiosity_hirise_mosaic (Mars Trek)",
+   "derivation": "copied, pixel-aligned with the DEM"
+  },
+  "slope": {
+   "file": "terrain/slope_deg.png",
+   "grid": "terrain_2m",
+   "encoding": "uint8, value = slope in degrees (0-90)",
+   "units": "deg",
+   "source": "derived from the DEM",
+   "derivation": "np.gradient on DEM smoothed with sigma=1.0 px (effective base ~4-6 m)"
+  },
+  "hazard": {
+   "file": "terrain/hazard_slope.png",
+   "grid": "terrain_2m",
+   "encoding": "RGBA, red where slope > threshold",
+   "units": "mask",
+   "threshold_deg": 20,
+   "source": "derived from the DEM",
+   "derivation": "slope > 20 deg (assumption)"
+  },
+  "elevation": {
+   "file": "terrain/elevation_4m.u16",
+   "grid": "routing_4m",
+   "encoding": {
+    "dtype": "uint16",
+    "byte_order": "little",
+    "order": "row-major, row 0 = north",
+    "offset": -4485.1259765625,
+    "scale": 0.0069676732256618605,
+    "min": -4485.1259765625,
+    "max": -4028.49951171875,
+    "max_quantization_error": 0.0034838366128309302
+   },
+   "units": "m (areoid-referenced, negative is normal in Gale)",
+   "source": "MRO HiRISE DEM Gale_DEM_SMG_1m",
+   "derivation": "2x2 block mean of the 2 m DEM"
+  },
+  "return_time": {
+   "file": "terrain/return_time_4m.png",
+   "grid": "routing_4m",
+   "encoding": "uint8, minutes = 2 x value; 255 = not reachable under the slope limit",
+   "units": "min",
+   "source": "derived (route engine)",
+   "derivation": "Dijkstra on the reverse graph from the pickup point; same speed model and slope limit as the route"
+  }
+ },
+ "files": {
+  "route": "route/route.json",
+  "curiosity_track": "route/curiosity_track.json",
+  "stops": "science/stops.json",
+  "radiation": "environment/radiation.json",
+  "weather": "environment/weather.json"
+ },
+ "scenario": {
+  "start": "Pahrump Hills",
+  "stops": [
+   "Marias Pass",
+   "Bagnold Dunes",
+   "Murray Buttes",
+   "Bagnold Dunes South",
+   "Vera Rubin Ridge",
+   "Top of Vera Rubin Ridge"
+  ],
+  "pickup": "Hematite Hotspot",
+  "crew": 2,
+  "base_speed_kmh": 2.5,
+  "dwell_min_per_stop": 20,
+  "eva_duration_h": 6.0,
+  "start_lmst": "10:00",
+  "robot_speed_kmh": 1.0,
+  "hazard_slope_deg": 20
+ },
+ "assumptions": [
+  "Walking speed: Tobler-type hiking curve scaled to 2.5 km/h on flat ground. Exploratory, not validated for suited astronauts on Mars.",
+  "Cells steeper than 20 deg are not walkable (hard limit).",
+  "20 min at each science stop; EVA budget 6.0 h; crew of 2; pressurized rover pickup at Hematite Hotspot.",
+  "Astronaut position in the viewer is simulated along the modelled route (in a real EVA it would come from inertial/visual odometry).",
+  "Radiation alert at 3 x the reference rate is illustrative.",
+  "Scout robot: drives the modelled route ahead of the crew at 1.0 km/h, assumed for known terrain (Curiosity's top speed is about 0.15 km/h)."
+ ],
+ "warnings": [
+  "All environmental data are historical observations, not live or forecast values.",
+  "RAD values are absorbed dose rates measured by the rover, not human dose (no mSv conversion).",
+  "Slope is computed from a 2 m DEM; obstacles smaller than ~4-6 m (single rocks) are not resolved.",
+  "HiRISE brightness is NOT used to detect sand: tested on the Bagnold Dunes stops, it does not separate sand from rock.",
+  "Curiosity's track is a rover reference, not proof of human traversability."
+ ],
+ "sources": [
+  {
+   "data": "HiRISE DEM Gale_DEM_SMG_1m, HiRISE and CTX mosaics",
+   "provider": "NASA JPL Mars Trek",
+   "downloaded": "2026-11-14"
+  },
+  {
+   "data": "Curiosity waypoints and traverse (MMGIS)",
+   "provider": "NASA JPL MSL mission map",
+   "downloaded": "2026-11-14"
+  },
+  {
+   "data": "MSL RAD MSL_RAD_OBS-L2",
+   "provider": "NASA SPDF CDAWeb",
+   "downloaded": "2026-11-14"
+  },
+  {
+   "data": "MSL REMS MODRDR",
+   "provider": "NASA PDS Atmospheres Node",
+   "downloaded": "2026-11-14"
+  },
+  {
+   "data": "MSL Navcam raw images",
+   "provider": "NASA/JPL-Caltech",
+   "downloaded": "2026-11-14"
+  }
+ ]
+}
