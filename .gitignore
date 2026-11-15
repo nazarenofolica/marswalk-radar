@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Datos pesados: NO se versionan. Se regeneran con `python data/generacion/generar_todo.py`
+data/raw/photos/
+data/raw/rad/
+data/raw/rems/
+# Lock temporal del manifiesto
+data/raw/MANIFEST.lock
+
+# Salidas temporales
+*.tmp
+*.log
+
+# Documentación interna: no se publica en la entrega
+documentos/
+.pytest_cache/
+*.md
+!README.md

@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marswalk Radar — Gale Crater (simulated EVA)</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="./style.css">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js", "three/addons/": "./vendor/addons/" } }
+</script>
+</head>
+<body>
+<div id="app">
+
+  <header id="topbar">
+    <div class="brand">
+      <span class="brand-name">MARSWALK RADAR</span>
+      <span class="brand-site">Gale Crater</span>
+      <span class="chip chip-sim">SIMULATED EVA</span>
+    </div>
+    <div class="clock">
+      <span class="clock-item"><span class="k">LMST</span> <span class="num" id="hdr-lmst">--:--</span></span>
+      <span class="clock-item"><span class="k">EVA</span> <span class="num" id="hdr-eva">--:--</span></span>
+      <button id="btn-info" class="icon-btn" title="Assumptions &amp; sources" aria-label="Assumptions and sources">i</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="radar-area">
+
+      <section id="view3d" hidden aria-label="First-person view">
+        <canvas id="v3-canvas"></canvas>
+        <div id="v3-visor" aria-hidden="true"><i id="v3-reticle"></i></div>
+        <div id="v3-loading">Loading terrain…</div>
+      </section>
+
+      <div id="stage">
+        <canvas id="radar-canvas"></canvas>
+        <svg id="rings" viewBox="-100 -100 200 200" aria-hidden="true"></svg>
+        <div id="edge-arrows"></div>
+        <div id="markers"></div>
+      </div>
+
+      <div id="north" class="only-2d" aria-hidden="true"><div id="north-needle"><span>N</span></div></div>
+
+      <aside id="legend" class="only-2d">
+        <div class="legend-title">Layers</div>
+        <div class="lg"><span class="sw sw-you"></span><span>Crew</span></div>
+        <div class="lg"><span class="dot dot-robot"></span><span>Scout robot</span></div>
+        <div class="lg"><span class="sw sw-route"></span><span>Modelled route</span></div>
+        <div class="lg"><span class="sw sw-done"></span><span>Route walked</span></div>
+        <div class="lg"><span class="sw sw-hazard"></span><span>Slope &gt; <span id="lg-slope">20</span>°</span></div>
+        <div class="lg"><span class="sw sw-ring"></span><span>Return limit</span></div>
+        <label class="lg lg-toggle"><span class="sw sw-rover"></span><span>Curiosity track</span>
+          <input type="checkbox" id="chk-rover" checked></label>
+        <div class="legend-title">Stops</div>
+        <div class="lg"><span class="dot dot-next"></span><span>Upcoming</span></div>
+        <div class="lg"><span class="dot dot-visited"></span><span>Visited</span></div>
+        <div class="lg"><span class="dot dot-pickup"></span><span>Pickup</span></div>
+        <div class="lg"><span class="dot dot-context"></span><span>Off route</span></div>
+      </aside>
+
+      <aside id="cards">
+        <article class="card">
+          <h2>TERRAIN</h2>
+          <div class="metrics">
+            <div class="metric"><span class="k">Slope</span><span class="v num" id="tr-slope">–</span></div>
+            <div class="metric"><span class="k">Max 200 m</span><span class="v num" id="tr-ahead">–</span></div>
+            <div class="metric"><span class="k">Elevation</span><span class="v num" id="tr-elev">–</span></div>
+          </div>
+          <div class="bar"><div class="bar-fill" id="tr-bar"></div><div class="bar-ahead" id="tr-bar-ahead"></div></div>
+        </article>
+        <article class="card">
+          <h2>WINDOW</h2>
+          <div class="metrics">
+            <div class="metric"><span class="k">Elapsed</span><span class="v num" id="wn-elapsed">–</span></div>
+            <div class="metric"><span class="k">Remaining</span><span class="v num" id="wn-remaining">–</span></div>
+            <div class="metric metric-margin"><span class="k">Return margin</span><span class="v num" id="wn-margin">–</span></div>
+          </div>
+        </article>
+        <article class="card only-3d">
+          <h2>RADIATION <span class="unit">µGy/day</span></h2>
+          <div class="metrics metrics-4">
+            <div class="metric metric-now"><span class="k">Now · robot</span><span class="v num" id="rad-now">–</span></div>
+            <div class="metric"><span class="k">Avg</span><span class="v num" id="rad-avg">–</span></div>
+            <div class="metric"><span class="k">Min</span><span class="v num" id="rad-min">–</span></div>
+            <div class="metric"><span class="k">Max</span><span class="v num" id="rad-max">–</span></div>
+          </div>
+          <div class="k card-foot" id="rad-win"></div>
+        </article>
+      </aside>
+
+      <div id="sim" class="only-3d">
+        <button id="sim-toggle" class="pill" aria-expanded="false" aria-controls="sim-panel">Simulation ▾</button>
+        <div id="sim-panel" hidden>
+          <div class="sim-head">SIMULATION PANEL</div>
+          <div class="fine">Set conditions by hand to test the alerts. Simulated values, not sensor data.</div>
+          <div id="sim-rows"></div>
+          <div class="sim-foot">
+            <label><input type="checkbox" id="sim-sound" checked> Sound</label>
+            <button id="sim-reset" class="pill">Reset</button>
+          </div>
+        </div>
+      </div>
+      <div id="v3-alerts" class="only-3d" role="status" aria-live="assertive"></div>
+
+      <div id="stop-pop" class="only-2d" hidden>
+        <button class="pop-close" id="sp-close" aria-label="Close">×</button>
+        <div class="pop-name" id="sp-name"></div>
+        <div class="pop-body">
+          <button id="sp-photo-btn" class="photo-btn" title="Enlarge photo">
+            <img id="sp-photo" alt="">
+            <span class="photo-credit" id="sp-credit"></span>
+          </button>
+          <div class="pop-metrics">
+            <div class="metric"><span class="k" id="sp-k1"></span><span class="v num" id="sp-v1"></span></div>
+            <div class="metric"><span class="k" id="sp-k2"></span><span class="v num" id="sp-v2"></span></div>
+            <div class="metric"><span class="k">Δz</span><span class="v num" id="sp-v3"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="radar-controls">
+        <div class="seg only-2d" id="seg-range" role="group" aria-label="Radar range">
+          <button data-range="250">250 m</button>
+          <button data-range="500">500 m</button>
+          <button data-range="1000">1 km</button>
+        </div>
+        <div class="seg" id="seg-view" role="group" aria-label="View">
+          <button data-view="radar">Radar</button>
+          <button data-view="overview">Overview</button>
+          <button data-view="3d">3D</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="bottombar">
+    <button id="btn-play" class="play-btn" aria-label="Play or pause">▶</button>
+    <div class="seg" id="seg-speed" role="group" aria-label="Simulation speed">
+      <button data-speed="10">×10</button>
+      <button data-speed="30">×30</button>
+      <button data-speed="60">×60</button>
+      <button data-speed="300">×300</button>
+    </div>
+    <div id="timeline">
+      <div id="tl-track">
+        <div id="tl-fill"></div>
+        <div id="tl-marks"></div>
+        <div id="tl-robot" title="Scout robot"></div>
+        <div id="tl-thumb" title="Crew"></div>
+      </div>
+      <input type="range" id="tl-input" min="0" max="1" step="0.01" value="0" aria-label="EVA timeline">
+    </div>
+    <div class="tl-time num" id="tl-time">00:00 / 00:00</div>
+  </footer>
+</div>
+
+<div id="info-modal" class="modal" hidden>
+  <div class="modal-box">
+    <div class="modal-head"><h2>Assumptions &amp; sources</h2><button class="icon-btn" data-close aria-label="Close">×</button></div>
+    <div class="modal-body" id="info-body"></div>
+  </div>
+</div>
+
+<div id="photo-modal" class="modal" hidden>
+  <div class="modal-box modal-photo">
+    <div class="modal-head"><h2 id="ph-title">Photo</h2><button class="icon-btn" data-close aria-label="Close">×</button></div>
+    <div class="photo-view">
+      <button class="icon-btn" id="ph-prev" aria-label="Previous photo">‹</button>
+      <img id="ph-img" alt="">
+      <button class="icon-btn" id="ph-next" aria-label="Next photo">›</button>
+    </div>
+    <div class="fine" id="ph-caption"></div>
+  </div>
+</div>
+
+<div id="fatal" hidden>
+  <div class="fatal-box">
+    <h2>Marswalk Radar could not start</h2>
+    <p id="fatal-msg"></p>
+    <p>Serve the repository <b>root</b> (not <code>web/</code>) and open <code>/web/</code>:</p>
+    <pre>python -m http.server 8000
+http://localhost:8000/web/</pre>
+    <p>If the data package is missing, rebuild it:</p>
+    <pre>python scripts/build_package.py configs/packages/gale_radar.yaml</pre>
+  </div>
+</div>
+
+<script type="module" src="./main.js"></script>
+</body>
+</html>

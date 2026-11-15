@@ -1,0 +1,6 @@
+three.js r187 (npm three@0.187.0), MIT license (LICENSE-three.txt).
+Import map used by web/index.html:
+  "three"         -> ./vendor/three.module.js   (imports ./three.core.js)
+  "three/addons/" -> ./vendor/addons/
+Addons included: controls/OrbitControls.js, controls/MapControls.js, renderers/CSS2DRenderer.js,
+lines/Line2.js, lines/LineMaterial.js, lines/LineGeometry.js, lines/LineSegments2.js, lines/LineSegmentsGeometry.js

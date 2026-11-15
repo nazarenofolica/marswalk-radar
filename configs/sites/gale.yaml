@@ -1,0 +1,58 @@
+# Configuración del sitio principal: Gale, tramo Pahrump Hills -> Hematite Hotspot.
+# Todas las coordenadas son grados decimales (lon Este, lat). CRS: grilla geográfica de Marte.
+# Origen de las cajas: ver documentos/PLAN.md, sección 2.
+
+site:
+  id: gale
+  name: "Gale Crater - Pahrump Hills to Hematite Hotspot"
+  body: mars
+
+# Cajas de recorte. 1 grado de latitud ~ 59,16 km en Marte.
+bboxes:
+  # Tramo Pahrump Hills -> Hematite Hotspot (lon 137.352-137.382, lat -4.730 a -4.662) + 0,01 deg de margen.
+  detail:
+    lon: [137.342, 137.392]
+    lat: [-4.740, -4.652]
+    # 2 m y no 1 m: el servidor corta a los 60 s y a 1 m ni 512x512 px llega a tiempo (probado 14/11).
+    # La pendiente igual se calcula sobre una base de 3-5 m (a 1 m el ruido de HiRISE la infla).
+    pixel_m: 2
+  # Recorrido completo de Curiosity (Bradbury Landing -> Hematite Hotspot) + 0,01 deg de margen.
+  route_full:
+    lon: [137.342, 137.460]
+    lat: [-4.740, -4.579]
+    pixel_m: 3
+  # Segundo sitio: zona de boxwork. Waypoints oficiales de JPL, soles 4500-4800 (2025):
+  # lon 137.379-137.390, lat -4.809 a -4.793, elevación -3691 a -3605 m. + 0,01 deg de margen.
+  boxwork:
+    lon: [137.369, 137.400]
+    lat: [-4.819, -4.783]
+    pixel_m: 2
+  # Cobertura completa del DEM Gale_DEM_SMG_1m (~36 x 40 km).
+  context:
+    lon: [137.1225, 137.7298]
+    lat: [-4.9255, -4.2490]
+    pixel_m: 25
+
+trek:
+  base_url: https://trek.nasa.gov/mars
+  arcgis: https://trek.nasa.gov/mars/trekarcgis/rest/services
+  tiles: https://trek.nasa.gov/tiles/Mars/EQ
+  services:
+    dem: Gale_DEM_SMG_1m                      # ImageServer, float32, metros
+    hirise_mosaic: curiosity_hirise_mosaic    # ImageServer
+    ctx_mosaic_wmts: Gale_CTX_BlockAdj_dd     # WMTS
+    path: curiosity_path                      # MapServer, capa 0
+    waypoints: curiosity_waypoints            # MapServer, capa 0
+    geology: SIM3292_Global_Geology           # MapServer
+
+rad:
+  # CDAWeb (SPDF): dosis de radiación de Curiosity, calidad filtrada.
+  dataset: MSL_RAD_OBS-L2
+  variable: DOSIMETRY_TOTAL_f
+  start: "2012-08-06"
+  end: "2026-11-10"
+
+rems:
+  # PDS Atmospheres Node, bundle PDS4 msl_rems. Solo el producto MODRDR (RMD), ~12 MB por sol: soles representativos.
+  base_url: https://atmos.nmsu.edu/PDS/data/PDS4/msl_rems_bundle/data_calibrated
+  sols: [1200, 1280, 1360, 1440, 1520, 1600, 1680, 1760]   # ~84 soles de separación, cubre un año marciano (669 soles)

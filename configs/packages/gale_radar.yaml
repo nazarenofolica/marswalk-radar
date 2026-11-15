@@ -1,0 +1,49 @@
+# Marswalk Radar — package configuration (plan 2D).
+# Build:  python scripts/build_package.py configs/packages/gale_radar.yaml
+# Every value marked "assumption" is a scenario choice, not a measurement. They are shown in the UI.
+
+package:
+  id: gale_radar
+  name: "Marswalk Radar — Gale Crater: Pahrump Hills to Hematite Hotspot"
+  output: data/processed/gale_radar
+
+inputs:
+  dem: data/raw/gale/dem/dem_detail.tif              # MRO HiRISE DEM, 2 m/px, float32 meters
+  dem_meta: data/raw/gale/dem/dem_detail.json        # bbox, pixel size, row 0 = north
+  hirise: data/raw/gale/imagery/hirise_mosaic_detail.png
+  waypoints_named: data/raw/gale/vector/curiosity_waypoints.geojson   # Mars Trek, 14 named stops
+  waypoints_jpl: data/raw/gale/vector/msl_waypoints_jpl.geojson       # JPL mission map, 1389 stops with sol
+  photos_index: data/raw/photos/index.json
+  rad_dir: data/raw/rad
+  rems_dir: data/raw/rems
+
+terrain:
+  smoothing_sigma_px: 1.0      # Gaussian smoothing before slope (HiRISE DEM noise inflates 2 m slopes)
+  hazard_slope_deg: 20         # assumption: cells steeper than this are painted red and are not walkable
+  routing_block: 2             # 2x2 blocks -> 4 m routing grid (max slope, mean elevation)
+
+scenario:
+  start: "Pahrump Hills"
+  # Science stops visited in this order (names from curiosity_waypoints.geojson).
+  stops: ["Marias Pass", "Bagnold Dunes", "Murray Buttes", "Bagnold Dunes South", "Vera Rubin Ridge", "Top of Vera Rubin Ridge"]
+  pickup: "Hematite Hotspot"   # assumption: pressurized rover picks the crew up here
+  crew: 2                      # assumption
+  base_speed_kmh: 2.5          # assumption: walking speed on flat ground in a suit (exploratory, not validated)
+  dwell_min_per_stop: 20       # assumption: time spent at each science stop
+  eva_duration_h: 6.0          # assumption: total EVA time budget (drives the amber return ring)
+  start_lmst: "10:00"          # assumption: EVA start, local mean solar time
+  robot_speed_kmh: 1.0         # assumption: scout robot that drives the route ahead of the crew on known terrain
+                               # (Curiosity's top speed on flat ground is about 0.15 km/h)
+
+environment:
+  rad_reference_window_days: 30   # reference dose rate = median of the last N days with data
+  rad_alert_factor: 3             # assumption: illustrative alert when the rate exceeds N x reference
+  solar_event_date: "2024-05-20"  # historical scenario (strong solar particle event seen by RAD)
+
+# Short science objective per stop, shown in the "Next stop" card. TO DO (team, role 6): one or two sentences
+# + a source for each stop. Empty -> the viewer shows "Objective: pending". Example:
+#   "Pahrump Hills": {text: "...", source: "https://..."}
+science_notes: {}
+
+validation:
+  corridor_m: 50               # share of the modelled route within N m of Curiosity's track
